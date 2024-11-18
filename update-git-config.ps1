@@ -1,5 +1,21 @@
 # Prompt based Power Shell Script to update git config files
 
+# This PowerShell script is designed to automate the process of updating Git configuration settings in Windows environments. 
+# It simplifies setting up Git configurations such as user name, email, and other preferences, allowing for a faster and consistent setup of your Git environment.
+
+# Usage PowerShell Script to Update Git Config in Windows:
+
+# Download the script.
+# Open PowerShell as an administrator.
+# Run the script by typing: 
+#.\update-git-config.ps1 
+#The script will prompt you to enter your Git user name and email for configuration. Follow the instructions to complete the setup.
+
+# Requirements
+# PowerShell (Windows)
+# Git installed on your system
+
+
 function Show-MultiSelectMenu {
     param(
         [string[]]$options,
