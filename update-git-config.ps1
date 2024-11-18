@@ -1,3 +1,5 @@
+# Prompt based Power Shell Script to update git config files
+
 function Show-MultiSelectMenu {
     param(
         [string[]]$options,
